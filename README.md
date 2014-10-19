@@ -14,5 +14,5 @@ or pull it from server:
 
     $ sudo docker run -it --privileged=true \
             -v /your/maven/project/folder:/build \
-            -v $HOME/.m2:/root/.m2
+            -v $HOME/.m2:/root/.m2 \
             wpic/maven mvn -f /build clean install
